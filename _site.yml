@@ -1,9 +1,13 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "DarkLegends"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    theme: "darkly"
+    highlight: textmate
